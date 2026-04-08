@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Typing Master - Interactive Typing Tutor",
   description: "Improve your typing speed and accuracy with real-time feedback and performance tracking",
+  verification: {
+    google: "j4eGOY39eqeYbZrzAozSkHkE536hVVNBa_PY8Y3wcWw",
+  },
 };
 
 export default function RootLayout({
