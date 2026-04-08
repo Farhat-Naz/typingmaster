@@ -10,6 +10,7 @@ export default function Navbar() {
     { href: '/', label: '🏠 Home' },
     { href: '/about', label: 'ℹ️ About' },
     { href: '/improve-typing-speed', label: '📈 Improve Speed' },
+    { href: '/typing-tips', label: '💡 Typing Tips' },
     { href: '/blog', label: '📝 Blog' },
   ];
 
