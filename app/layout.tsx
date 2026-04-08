@@ -14,10 +14,25 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Typing Master - Interactive Typing Tutor",
-  description: "Improve your typing speed and accuracy with real-time feedback and performance tracking",
+  title: "Free Typing Test Online | Improve Speed & Accuracy",
+  description:
+    "Practice typing online with our free typing tutor. Improve your typing speed, accuracy, and WPM with real-time feedback.",
+  keywords: [
+    "typing test online",
+    "typing speed test",
+    "free typing tutor",
+    "improve typing speed",
+    "learn typing fast",
+  ],
   verification: {
     google: "j4eGOY39eqeYbZrzAozSkHkE536hVVNBa_PY8Y3wcWw",
+  },
+  openGraph: {
+    title: "Free Typing Test Online",
+    description: "Improve your typing speed with real-time feedback",
+    url: "https://typingmaster-woad.vercel.app/",
+    siteName: "Typing Master",
+    type: "website",
   },
 };
 
